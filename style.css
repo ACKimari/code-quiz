@@ -1,0 +1,156 @@
+:root{
+    background-color: mistyrose;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 68%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.float-left{
+    float: left;
+    font-size: 32px;
+    color: black;
+    margin: 3px 3px 3px 3px;
+}
+
+.current{
+    float: right;
+    font-size: 32px;
+    color: black;
+    padding-left: 1.5px;
+}
+
+#timer{
+    float: right;
+    font-size: 32px;
+    color: black;
+    margin-right: 3px;
+}
+
+h1{
+    font-size: 67.2px;
+    color: midnightblue;
+    margin-bottom: 80px;
+}
+
+h2{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+#start{
+    font-size: 56px;
+    margin-bottom: 64px;
+    background-color: transparent;
+}
+
+#start:hover{
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 darkgray;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#submit{
+    font-size: 56px;
+    padding: 32px 0;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: black;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 darkgray;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#submit[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 12px;
+    width: 100%;
+    border-radius: 4px;
+    background:wheat;
+    font-size: 34px;
+    min-width: 1280px;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 6.4px 23px 0 thistle;
+    transform: scale(1);
+    transform: transform 100ms;
+}
+
+.choice-prefix{
+    padding: 32px 40px;
+    color: white;
+}
+
+.choice-text{
+    padding: 32px;
+    width: 100%;
+}
+
+.correct{
+    background: teal;
+}
+
+.incorrect{
+    background: tomato;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 32px;
+}
+
+.hud-main-text{
+    text-align: center;
+
+}

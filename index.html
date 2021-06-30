@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <div id="navbar">   
+            <p class="float-left"><a href="#highscores">View Highscores</a></p>
+            <p class= "current"> 0 <a id="timer">Time left</a></p>   
+        </div>
+        <div id="home" class="flex-column flex-center">
+            <h1>Coding Quiz</h1>
+            <button id="start" class="submit">Start Quiz</button>
+        </div>
+        <div class="main">
+            <div id="quiz">
+                <div id="hud">
+                    <div class="hud-item">
+                        <p class="hud-prefix"> Score </p>
+                        <h1 class="hud-main-text" id="score"> 0 </h1>
+                    </div>
+                </div>  
+                <h2 id="question">Help me answer this question</h2>
+                <div class="choice-container">
+                    <p class="choice-prefix">ans1</p>
+                    <p class="choice-text" data-letter="a">Choice 1</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">ans2</p>
+                    <p class="choice-text" data-letter="b">Choice 2</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">ans3</p>
+                    <p class="choice-text" data-letter="c">Choice 3</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">ans4</p>
+                    <p class="choice-text" data-letter="d">Choice 4</p>
+                </div>
+                <div class="choice-container">
+                    <p class="choice-prefix">ans5</p>
+                    <p class="choice-text" data-letter="e">Choice 5</p>
+                </div>
+                <label id="answers" class="container"></label>
+                <button id="submit">Submit</button>
+                <div id="results"></div>
+            </div> 
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
