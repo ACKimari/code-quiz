@@ -55,6 +55,18 @@ h2{
     transition: transform 150ms;
     transform: scale(1.03);
 }
+#showScore{
+    font-size: 56px;
+    margin-bottom: 64px;
+    background-color: transparent;
+}
+
+#showScore:hover{
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 darkgray;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
 
 #home{
     width: 100vw;

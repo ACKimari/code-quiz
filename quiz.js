@@ -3,6 +3,7 @@ var question = document.getElementById('question');
 var choices = Array.from(document.querySelectorAll('.choice-text'));
 var scoreText = document.getElementById('score');
 const questionCounterText = document.getElementById("questionCounter");
+// const startQuiz = document.getElementById("start");
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -62,7 +63,7 @@ var SCORE_POINTS = 10;
 var MAX_QUESTIONS = 5;
 
 
-startGame = () => {
+startQuiz = () => {
     questionCounter = 0;
     score = 0;
     // timer = 0;
@@ -79,12 +80,11 @@ startGame = () => {
     // }, 1000);
 };
 
-// startBtn.addEventListener('click', startGame)
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('./end.html');
+        return window.location.assign('end.html');
     }
     questionCounter++;
     questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
@@ -132,4 +132,4 @@ incrementScore = (num) => {
     scoreText.innerText = score;
 };
 
-startGame();
+startQuiz();
