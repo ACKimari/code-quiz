@@ -154,3 +154,21 @@ h2{
     text-align: center;
 
 }
+
+.btn{
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 6.4px 22.4px 0 darkgray;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+#username{
+    font-size: 20px;
+    height: 20px;
+}

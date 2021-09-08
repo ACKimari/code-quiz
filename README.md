@@ -32,13 +32,13 @@ Step 10: Inspect your website to ensure everything is in order.
 
 ## Usage
 
-![Screenshot](./top.png)
+![Screenshot](Assets/top.png)
 
 
-![Screenshot](./center.png)
+![Screenshot](Assets/center.png)
 
 
-![Screenshot](./bottom.png)
+![Screenshot](Assets/bottom.png)
 
 ## Credits
 
