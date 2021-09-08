@@ -8,6 +8,9 @@ This project solves the problem of loosing data as we include a local storage to
 
 Finally, my project is an example to those who lack knowledge in coding that a little effort goes a long way, even if the overall task is incomplete.
 
+## Update
+
+App works from the quiz html file. The start quiz button doesn't work as of yet as I'm not sure what code I'm missing. The user's score and name is saved in the local storage but not yet rendered on the page. 
 ## Installation
 
 Step 1: Create a repositary on GitHub and code it on VS Code.
@@ -32,13 +35,16 @@ Step 10: Inspect your website to ensure everything is in order.
 
 ## Usage
 
-![Screenshot](Assets/top.png)
+![Screenshot](Assets/quizpage.png)
 
 
-![Screenshot](Assets/center.png)
+![Screenshot](Assets/pointsperRightQuestion.png)
 
 
-![Screenshot](Assets/bottom.png)
+![Screenshot](Assets/Finishingpage.png)
+
+
+![Screenshot](Assets/LocalStorage.png)
 
 ## Credits
 
